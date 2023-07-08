@@ -1,0 +1,14 @@
+.container{
+  width: 1000px;
+}
+.toolbox{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.toolbox div{
+  border: 1px solid black;
+}
+.canvas{
+  border: 1px solid black;
+}

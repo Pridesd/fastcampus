@@ -1,0 +1,15 @@
+    "rollup": "^2.66.1", 
+    "rollup-plugin-generate-html-template": "^1.7.0", -> 빌드할 때 index.html을 템플릿으로 사용하기 위한 패키지
+    "rollup-plugin-livereload": "^2.0.5", -> 워치 모드로 돌려서 변경이 감지되면 빌드되는데 그때 변화를 감지해서 리로드를 시켜주는 패키지
+    "rollup-plugin-scss": "^3.0.0", sass파일을 읽기 위한 패키지
+    "rollup-plugin-serve": "^1.1.0", dev서버를 돌리기 위한 패키지
+    "rollup-plugin-terser": "^7.0.2", 빌드를 할 때 어블리파이? 하기 위한 패키지
+
+    롤업js명령어
+    {
+        rollup -c(config 설정으로 빌드하겠다 -> rollup.config.js가 디폴트) -w(와치모드로 하겠다) 이 두 설정이 존재
+        rollup -c config파일 -> 이파일을 config설정으로 하겠다. 
+    }
+
+    npm i -D --save @fortawesome/fontawesome-free
+    폰트 어썸 프리 버전 다운로드 명령어
